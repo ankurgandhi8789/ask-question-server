@@ -13,7 +13,7 @@ const Groq = require("groq-sdk");
 const app = express();
 app.use(cors({
   origin: [
-    // "https://chat-bot-one-vert-80.vercel.app",
+    "https://ask-question-client.vercel.app/",
     "http://localhost:5173",
     // "http://localhost:3000"
   ],
