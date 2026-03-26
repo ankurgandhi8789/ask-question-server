@@ -13,9 +13,8 @@ const Groq = require("groq-sdk");
 const app = express();
 app.use(cors({
   origin: [
-    "https://ask-question-client.vercel.app/",
-    "http://localhost:5173",
-    // "http://localhost:3000"
+    "https://ask-question-client.vercel.app",
+    "http://localhost:5173"
   ],
   methods: ["GET", "POST", "DELETE"],
   credentials: true
